@@ -3,6 +3,71 @@ body{
     text-align: center;
 }
 
+header{
+    text-align: center;
+}
+
+nav{
+    display: inline-block; /* Permite centrar el nav */
+    list-style-type: none;
+    width: 1030px;
+    height: 5vh;
+    background-color: #D9814E;
+    margin-bottom: 5px;
+
+    ul{
+        margin: 0;
+        height: 5vh;
+    }
+
+    li {
+        width: 120px;
+        height: 5vh;
+        display: inline-flex;               /* Activa el modelo flex */
+        justify-content: center;     /* Centra horizontalmente */
+        align-items: center;         /* Centra verticalmente */
+
+        a{
+            font-size: 25px;
+            color: white;
+            text-decoration: none;
+            width: 100%;
+        }
+    }
+}
+
+nav li:hover{
+    background-color: #A64B29;
+}
+
+footer{
+    display: inline-block;
+    text-align: center;
+    background-color: #AABBBF;
+    color: white; 
+    font-size: 25px;   
+}
+
 iframe{
     width: 1030px;
+    border: none;
+    min-height: 50dvh;
+}
+
+.div-center{
+    width: 1030px;
+}
+
+.spacing-item-5{
+    margin: 0 5px; /* Espaciado entre los elementos */
+}
+
+.my-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icon-footer{
+    width: 40px;
+    height: 40px;
 }
