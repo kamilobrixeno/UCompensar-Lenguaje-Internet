@@ -6,6 +6,7 @@ body{
 }
 
 header{
+    
     text-align: center;
 }
 
@@ -116,3 +117,4 @@ iframe{
 .img-header{
     width: 1100px;
 }
+
