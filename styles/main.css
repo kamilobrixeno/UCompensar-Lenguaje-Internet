@@ -1,3 +1,4 @@
+
 body{
     background-color: #F2E3D5;
     text-align: center;
@@ -109,6 +110,16 @@ iframe{
     max-width: 200px;     
 }
 
+.dv-box-middle{
+    background-color: #F0F1ED;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    max-width: 600px;      
+}
+
 .dv-box-big{
     background-color: white;
     border: 1px solid #ddd;
@@ -156,12 +167,31 @@ iframe{
     width: 1100px;
 }
 
+.button-back {  
+    background-color: #B7A897; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    box-shadow: inset 0 0 0 0 #82624E;
+    -webkit-transition: ease-out 0.5s;
+    -moz-transition: ease-out 0.5s;
+    transition: ease-out 0.5s;
+}
+
+.button-back:hover {
+    box-shadow: inset 400px 0 0 0 #82624E; /* Color de fondo al pasar el mouse */
+}
+
 .titulo-cuidado-perro h1{
     background-color: #F2E3D5;
     text-align: center;
     font-family: "Host Grotesk", sans-serif;
-    color: #000000;
+    color: #000000;						  
 }
+
 /* Estilo general para todas las secciones de cuidado */
 .cuidado-seccion {
     width: auto;
@@ -209,7 +239,6 @@ iframe{
     object-fit: cover;
 }
 
-
 /* Estilo específico para la introducción */
 #cuidado-introduccion {
     background-color: #f9f9f9; /* Color de fondo claro */
@@ -217,7 +246,7 @@ iframe{
 
 /* Estilo específico para la alimentación saludable */
 #cuidado-alimentacion {
-    background-color: #D98859; /* Color de fondo azul claro */
+    background-color: #E6C9A8; /* Color de fondo azul claro */
 }
 
 /* Estilo específico para la higiene regular */
@@ -227,7 +256,7 @@ iframe{
 
 /* Estilo específico para el ejercicio */
 #cuidado-ejercicio {
-    background-color: #D98859; /* Color de fondo morado claro */
+    background-color: #E6C9A8; /* Color de fondo morado claro */
 }
 
 /* Estilo específico para atención veterinaria */
@@ -237,5 +266,5 @@ iframe{
 
 /* Estilo específico para socialización y educación */
 #cuidado-socializacion {
-    background-color:#D98859; /* Color de fondo verde claro */
+    background-color:#E6C9A8; /* Color de fondo verde claro */
 }
