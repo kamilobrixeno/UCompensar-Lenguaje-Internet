@@ -179,6 +179,17 @@ summary:hover {
     max-width: 1000px;      
 }
 
+.dv-box-big-contact{
+    background-color: #F0F1ED;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    max-width: 1000px;  
+    height: 600px;    
+}
+
 .dv-box:hover{
     cursor: pointer;
 }
@@ -330,7 +341,7 @@ summary:hover {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 50px;
-    margin-top: 90px;
+    margin-top: 50px;
     align-items: center;
 }
 
