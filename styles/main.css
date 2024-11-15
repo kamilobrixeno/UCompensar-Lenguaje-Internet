@@ -78,6 +78,17 @@ iframe{
 }
 
 .dv-section{
+    width: 230px;
+    background-color: #91A08E;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.dv-section-big{
+    width: 750px;
+    background-color: #AABBBF;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
