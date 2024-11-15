@@ -185,6 +185,9 @@ iframe{
     box-shadow: inset 400px 0 0 0 #82624E; /* Color de fondo al pasar el mouse */
 }
 
+/* Estilo de pagina tips */
+
+/* Estilo del titulo cuidado del perro */
 .titulo-cuidado-perro h1{
     background-color: #F2E3D5;
     text-align: center;
@@ -194,14 +197,14 @@ iframe{
 
 /* Estilo general para todas las secciones de cuidado */
 .cuidado-seccion {
-    width: auto;
-    height: 300px;
+    width: auto;/* ancho de cada seccion automatico*/
+    height: 300px;/*alto de seccion */
     margin: 20px 0; /* Espaciado vertical entre secciones */
     border: 1px solid #ccc; /* Borde alrededor de cada sección */
     border-radius: 8px; /* Bordes redondeados */
     display: flex;
-    align-items: center;
-    padding: 40px;
+    align-items: center; /* Alinea y centra  los items de seccion */
+    padding: 40px; /* El area alrededor del elemento */
 }
 
 .cuidado-seccion1 iframe {
@@ -209,7 +212,7 @@ iframe{
     width: 700px;
     height: 350px;
     border-radius: 8px;
-    object-fit: cover;
+    object-fit: cover;/* Ajusta la imagen a su tamaño original*/
 }
 
 .cuidado-seccion1{
