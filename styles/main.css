@@ -1,4 +1,3 @@
-
 body{
     background-color: #F2E3D5;
     text-align: center;
@@ -116,5 +115,98 @@ iframe{
 
 .img-header{
     width: 1100px;
+}
+
+.titulo-cuidado-perro h1{
+    background-color: #F2E3D5;
+    text-align: center;
+    font-family: "Host Grotesk", sans-serif;
+    color: #000000;
+}
+/* Estilo general para todas las secciones de cuidado */
+.cuidado-seccion {
+    width: auto;
+    height: 300px;
+    margin: 20px 0; /* Espaciado vertical entre secciones */
+    border: 1px solid #ccc; /* Borde alrededor de cada sección */
+    border-radius: 8px; /* Bordes redondeados */
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+
+.cuidado-seccion1 iframe {
+    margin: 5px;
+    width: 600px;
+    height: 350px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.cuidado-seccion1 p{
+ font-size: large;
+}
+
+.cuidado-seccion {
+    font-size: large;
+    text-align:left;
+   }
+
+.cuidado-seccion h2{
+    text-align:center;
+}
+
+.cuidado-seccion1{
+    display: inline-flexbox;
+    align-items: center;
+    padding: 40px;
+}
+
+.cuidado-seccion img {
+    margin: 5px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+    object-fit: cover;
+}
+
+.cuidado-seccion video {
+    margin: 5px;
+    width: 30%;
+    height: 300px;
+    border-radius: 20%;
+    padding: 40%;
+    object-fit: cover;
+}
+
+/* Estilo específico para la introducción */
+#cuidado-introduccion {
+    background-color: #f9f9f9; /* Color de fondo claro */
+}
+
+/* Estilo específico para la alimentación saludable */
+#cuidado-alimentacion {
+    background-color: #D98859; /* Color de fondo azul claro */
+}
+
+/* Estilo específico para la higiene regular */
+#cuidado-higiene {
+    background-color: #D98859; /* Color de fondo naranja claro */
+}
+
+/* Estilo específico para el ejercicio */
+#cuidado-ejercicio {
+    background-color: #D98859; /* Color de fondo morado claro */
+}
+
+/* Estilo específico para atención veterinaria */
+#cuidado-veterinaria {
+    background-color: #D98859; /* Color de fondo melocotón claro */
+}
+
+/* Estilo específico para socialización y educación */
+#cuidado-socializacion {
+    background-color:#D98859; /* Color de fondo verde claro */
 }
 
