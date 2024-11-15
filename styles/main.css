@@ -57,6 +57,38 @@ iframe{
     min-height: 55dvh;
 }
 
+a{
+    cursor: pointer;
+}
+
+details {
+    border: none; /* Borde del acordeón */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 10px; /* Espacio entre acordeones */
+    background-color: white; /* Color de fondo */
+    font-size: 18px;
+}
+
+summary {
+    background-color: #362F2D; /* Color de fondo del encabezado */
+    color: white; /* Color del texto */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el encabezado */
+    padding: 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    outline: none; /* Sin contorno al hacer clic */
+}
+
+summary:hover {
+    background-color: #82624E; /* Color al pasar el mouse sobre el encabezado */
+}
+
+/* Estilo del contenido dentro del acordeón */
+.content-accordion {
+    padding: 15px; /* Espaciado interno del contenido */
+    background-color: #F0F1ED;
+    font-size: 18px;
+}
+
 .f-smaller{
     font-size: smaller;
 }
@@ -76,6 +108,23 @@ iframe{
     background-color: white; /* Color de fondo blanco */
     border: none; /* Sin borde */
     margin: 5px;
+}
+
+.dv-section-accordion{
+    width: 930px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.dv-section-policies{
+    width: 930px;
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .dv-section{
