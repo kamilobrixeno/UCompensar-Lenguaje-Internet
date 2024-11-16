@@ -1,16 +1,19 @@
 
 body{
+    background-color: #F2E3D5;
     text-align: center;
+    font-family: "Host Grotesk", sans-serif;
 }
 
 header{
+    
     text-align: center;
 }
 
 nav{
     display: inline-block; /* Permite centrar el nav */
     list-style-type: none;
-    width: 1030px;
+    width: 1100px;
     height: 5vh;
     background-color: #D9814E;
     margin-bottom: 5px;
@@ -23,7 +26,7 @@ nav{
     li {
         width: 120px;
         height: 5vh;
-        display: inline-flex;               /* Activa el modelo flex */
+        display: inline-flex;        /* Activa el modelo flex */
         justify-content: center;     /* Centra horizontalmente */
         align-items: center;         /* Centra verticalmente */
 
@@ -41,33 +44,387 @@ nav li:hover{
 }
 
 footer{
-    display: inline-block;
-    text-align: center;
-    background-color: #AABBBF;
+    position: absolute;
+    left: 50%; /* Mueve el elemento al 50% del ancho del contenedor */
+    transform: translate(-50%); /* Ajusta la posición para centrarlo */
+    bottom: 0;
     color: white; 
-    font-size: 25px;   
+    font-size: 25px;  
 }
 
-iframe{
-    width: 1030px;
+a{
+    cursor: pointer;
+}
+
+details {
+    border: none; /* Borde del acordeón */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 10px; /* Espacio entre acordeones */
+    background-color: white; /* Color de fondo */
+    font-size: 18px;
+}
+
+summary {
+    background-color: #362F2D; /* Color de fondo del encabezado */
+    color: white; /* Color del texto */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el encabezado */
+    padding: 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    outline: none; /* Sin contorno al hacer clic */
+}
+
+summary:hover {
+    background-color: #82624E; /* Color al pasar el mouse sobre el encabezado */
+}
+
+#dv-containter-home{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Estilo del contenido dentro del acordeón */
+.content-accordion {
+    padding: 15px; /* Espaciado interno del contenido */
+    background-color: #F0F1ED;
+    font-size: 18px;
+}
+
+.f-smaller{
+    font-size: smaller;
+}
+
+.txt-left{
+    text-align: left;
+    padding-left: 5px;
+}
+
+.link-img{
+    text-decoration: none;
+}
+
+.line{
+    width: 180px;
+    height: 2px; /* Altura del hr */
+    background-color: white; /* Color de fondo blanco */
+    border: none; /* Sin borde */
+    margin: 5px;
+}
+
+.dv-section-accordion{
+    width: 930px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.dv-section-policies{
+    width: 930px;
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.dv-section{
+    width: 230px;
+    background-color: #91A08E;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.dv-section-big{
+    width: 750px;
+    background-color: #AABBBF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.dv-footer{
+    width: 1100px;
+}
+
+.dv-row{
+    display: inline-flex;
+}
+
+.dv-box{
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    max-width: 200px;     
+}
+
+.dv-box-middle{
+    background-color: #F0F1ED;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    max-width: 600px;      
+}
+
+.dv-box-big{
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    max-width: 1000px;      
+}
+
+.dv-box-big-contact{
+    background-color: #F0F1ED;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    max-width: 1000px;  
+    height: 600px;    
+}
+
+.dv-box:hover{
+    cursor: pointer;
+}
+
+.container-iframe{
+    width: 1100px;
     border: none;
-    min-height: 50dvh;
+    position: absolute;
+    left: 50%; /* Mueve el elemento al 50% del ancho del contenedor */
+    transform: translate(-50%); /* Ajusta la posición para centrarlo */
+    min-height: 55%;
 }
 
-.div-center{
-    width: 1030px;
+.container-text{
+    display: flex;
+    justify-content: center;
+}
+
+.text-box{
+    width: 800px;
+    text-align: justify;
 }
 
 .spacing-item-5{
     margin: 0 5px; /* Espaciado entre los elementos */
 }
 
-.my-10{
+.mt-10{
     padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .icon-footer{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+}
+
+.img-dog{
+    width: 200px;
+    height: 200px;
+}
+
+.img-header{
+    width: 1100px;
+}
+
+.button-back {  
+    background-color: #B7A897; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    box-shadow: inset 0 0 0 0 #82624E;
+    -webkit-transition: ease-out 0.5s;
+    -moz-transition: ease-out 0.5s;
+    transition: ease-out 0.5s;
+}
+
+.button-back:hover {
+    box-shadow: inset 400px 0 0 0 #82624E; /* Color de fondo al pasar el mouse */
+}
+
+/* Estilo de pagina tips */
+
+/* Estilo del titulo cuidado del perro */
+.titulo-cuidado-perro h1{
+    background-color: #F2E3D5;
+    text-align: center;
+    font-family: "Host Grotesk", sans-serif;
+    color: #000000;						  
+}
+
+/* Estilo general para todas las secciones de cuidado */
+.cuidado-seccion {
+    width: auto;/* ancho de cada seccion automatico*/
+    height: 300px;/*alto de seccion */
+    margin: 20px 0; /* Espaciado vertical entre secciones */
+    border: 1px solid #ccc; /* Borde alrededor de cada sección */
+    border-radius: 8px; /* Bordes redondeados */
+    display: flex;
+    align-items: center; /* Alinea y centra  los items de seccion */
+    padding: 40px; /* El area alrededor del elemento */
+}
+
+.cuidado-seccion1 iframe {
+    margin: 5px;
+    width: 700px;
+    height: 350px;
+    border-radius: 8px;
+    object-fit: cover;/* Ajusta la imagen a su tamaño original*/
+}
+
+.cuidado-seccion1{
+    display: inline-flexbox;
+    align-items: center;
+    padding: 40px;
+}
+
+.cuidado-seccion1 p{
+    font-size: large;
+    text-align: center;
+}
+.cuidado-seccion{
+    text-align: left;
+    font-size: large;
+}
+
+.cuidado-seccion h2{
+    text-align: center;
+}
+
+.cuidado-seccion img {
+    margin: 5px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+    object-fit: cover;
+}
+
+/* Estilo específico para la introducción */
+#cuidado-introduccion {
+    background-color: #f9f9f9;
+}
+
+/* Estilo específico para la alimentación saludable */
+#cuidado-alimentacion {
+    background-color: #E6C9A8;
+}
+
+/* Estilo específico para la higiene regular */
+#cuidado-higiene {
+    background-color: #D98859;
+}
+
+/* Estilo específico para el ejercicio */
+#cuidado-ejercicio {
+    background-color: #E6C9A8;
+}
+
+/* Estilo específico para atención veterinaria */
+#cuidado-veterinaria {
+    background-color: #D98859;
+}
+
+/* Estilo específico para socialización y educación */
+#cuidado-socializacion {
+    background-color:#E6C9A8;
+}
+
+/* Estilo de pagina contact */
+.contenedor-form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+/* Estilo a titulo */
+.contenedor-form h2{
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+/* Estilo a parrafo */
+.contenedor-form p{ 
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+/* Estilo texto despues de iconos  */
+.contenedor-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+
+/* Estilo a iconos*/
+.contenedor-form a i{
+    color:#D9814E;
+    margin-right: 10px;
+}
+
+
+/* Estilo a input */
+
+.contenedor-form form .campo,textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid #D9814E;
+    margin-bottom: 20px;
+    border-radius:3px;
+    outline: 0px;
+}
+
+/* Estilo del cuadro textarea */
+
+.contenedor-form{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+
+/* Estilo a boton enviar */
+.contenedor-form .btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: #D9814E;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+/* Estilo a boton color */
+
+.contenedor-form .btn-enviar:hover{
+    background:#be7b54;
 }
