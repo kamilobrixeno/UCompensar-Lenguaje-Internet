@@ -26,7 +26,7 @@ nav{
     li {
         width: 120px;
         height: 5vh;
-        display: inline-flex;               /* Activa el modelo flex */
+        display: inline-flex;        /* Activa el modelo flex */
         justify-content: center;     /* Centra horizontalmente */
         align-items: center;         /* Centra verticalmente */
 
@@ -44,17 +44,16 @@ nav li:hover{
 }
 
 footer{
-    width: 1100px;
-    display: inline-block;
-    background-color: #AABBBF;
+    position: absolute;
+    left: 50%; /* Mueve el elemento al 50% del ancho del contenedor */
+    transform: translate(-50%); /* Ajusta la posición para centrarlo */
+    bottom: 0;
     color: white; 
-    font-size: 25px;   
+    font-size: 25px;  
 }
 
 iframe{
-    width: 1100px;
-    border: none;
-    min-height: 55dvh;
+    
 }
 
 a{
@@ -80,6 +79,11 @@ summary {
 
 summary:hover {
     background-color: #82624E; /* Color al pasar el mouse sobre el encabezado */
+}
+
+#dv-containter-home{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 /* Estilo del contenido dentro del acordeón */
@@ -145,6 +149,10 @@ summary:hover {
     padding-right: 30px;
 }
 
+.dv-footer{
+    width: 1100px;
+}
+
 .dv-row{
     display: inline-flex;
 }
@@ -192,6 +200,15 @@ summary:hover {
 
 .dv-box:hover{
     cursor: pointer;
+}
+
+.container-iframe{
+    width: 1100px;
+    border: none;
+    position: absolute;
+    left: 50%; /* Mueve el elemento al 50% del ancho del contenedor */
+    transform: translate(-50%); /* Ajusta la posición para centrarlo */
+    min-height: 55%;
 }
 
 .container-text{
