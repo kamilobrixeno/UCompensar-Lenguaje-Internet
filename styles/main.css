@@ -321,36 +321,35 @@ summary:hover {
 
 /* Estilo específico para la introducción */
 #cuidado-introduccion {
-    background-color: #f9f9f9; /* Color de fondo claro */
+    background-color: #f9f9f9;
 }
 
 /* Estilo específico para la alimentación saludable */
 #cuidado-alimentacion {
-    background-color: #E6C9A8; /* Color de fondo azul claro */
+    background-color: #E6C9A8;
 }
 
 /* Estilo específico para la higiene regular */
 #cuidado-higiene {
-    background-color: #D98859; /* Color de fondo naranja claro */
+    background-color: #D98859;
 }
 
 /* Estilo específico para el ejercicio */
 #cuidado-ejercicio {
-    background-color: #E6C9A8; /* Color de fondo morado claro */
+    background-color: #E6C9A8;
 }
 
 /* Estilo específico para atención veterinaria */
 #cuidado-veterinaria {
-    background-color: #D98859; /* Color de fondo melocotón claro */
+    background-color: #D98859;
 }
 
 /* Estilo específico para socialización y educación */
 #cuidado-socializacion {
-    background-color:#E6C9A8; /* Color de fondo verde claro */
+    background-color:#E6C9A8;
 }
 
 /* Estilo de pagina contact */
-
 .contenedor-form{
     width: 100%;
     max-width: 1100px;
